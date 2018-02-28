@@ -14,3 +14,5 @@ hwclock --systohc --utcv
 
 # Checking password-setting parameter
 grep password.*unix /etc/pam.d*
+
+
