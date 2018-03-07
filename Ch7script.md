@@ -9,10 +9,7 @@ logger -p daemon.info Hey this is testing
 # Showing terminals and display a login prompt
 ps ao args | grep getty
 
-# Settting clock to Universal Coordinated Time
-hwclock --systohc --utcv
-
 # Checking password-setting parameter
 grep password.*unix /etc/pam.d*
 
-
+echo "Thanks for looking"
